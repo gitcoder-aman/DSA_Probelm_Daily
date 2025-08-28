@@ -148,13 +148,167 @@ public class one_prog {
         CDE
         DEFG
          */
-        int row = 0;
+
+  /*    int row = 0;
         while (row < 5){
 
             int col = 0;
             while(col <= row){
                 char ch = (char) ('A'+row+col);
                 System.out.print(ch);
+                col++;
+            }
+            System.out.println();
+            row++;
+        }*/
+
+        /*
+        D
+        CD
+        BCD
+        ABCD
+         */
+      /*  int row = 1;
+        while(row <= 4){
+
+            int col = 0;
+            char ch = (char) ('A'+4-row);
+            while(col < row){
+                System.out.print(ch);
+                ch++;
+                col++;
+            }
+            System.out.println();
+            row++;
+        }*/
+
+        /*
+        *
+       **
+      ***
+     ****
+    *****
+         */
+     /*   int row = 1;
+        while(row <= 10){
+
+            int col = 0;
+            while(col < 10){
+
+                if(col < 10-row){
+                    System.out.print(" ");
+                }else{
+                    System.out.print("*");
+                }
+                col++;
+            }
+            System.out.println();
+
+            row++;
+        }*/
+
+        /*
+        *****
+        ****
+        ***
+        **
+        *
+         */
+     /*   int row = 0;
+        while(row < 5){
+
+            int col = 0;
+            while(col < 5){
+
+                if(col < 5-row) {
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+                col++;
+            }
+            System.out.println();
+            row++;
+        }*/
+
+     /*   int row = 1;
+        while(row <= 4){
+
+            int col = 1;
+            while(col <= 4){
+
+                if(col < row){
+                    System.out.print(" ");
+                }else {
+                    System.out.print(row);
+                }
+                    col++;
+            }
+            System.out.println();
+            row++;
+        }*/
+    /*    int row = 1;
+        while(row <= 5){
+
+            int col = 1;
+            while (col <= 5){
+                if(col > 5-row){
+                    System.out.print(row);
+                }else{
+                    System.out.print(" ");
+                }
+                col++;
+            }
+            System.out.println();
+            row++;
+        }*/
+     /*  int row = 0;
+        while(row < 5){
+
+            int col = 1;
+            int count = row+1;
+            while(col <= 5){
+                if(col > row){
+                    System.out.print(count);
+                    count++;
+                }else{
+                    System.out.print(" ");
+                }
+                col++;
+            }
+            System.out.println();
+            row++;
+        }*/
+
+     /*   int row = 0;
+        int count = 1;
+        while(row < 4){
+
+            int col = 1;
+            while (col <=4){
+
+                if(col < 4-row){
+                    System.out.print(" ");
+                }else{
+                    System.out.print(count);
+                    count++;
+                }
+                col++;
+            }
+            System.out.println();
+            row++;
+        }*/
+
+        int row = 1;
+        while(row <= 5){
+
+            int col = 0;
+            while(col <= 5){
+                if(col >= row) {
+                    System.out.print(row);
+                } else{
+                    System.out.print(" ");
+                }
                 col++;
             }
             System.out.println();
